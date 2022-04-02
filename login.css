@@ -1,0 +1,88 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#fb_h,
+fb_h:hover,
+fb_h:visited,
+fb_h:active {
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#nav_top {
+    background-color: #3b5998;
+    text-align: center;
+}
+
+.centre_div {
+    padding-top: 16px;
+    width: 500px;
+    margin: 0 auto;
+}
+
+
+#user_input,
+#pass_input{
+    width: 399px;
+}
+
+#user_input,
+#pass_input {
+    background-color: #f5f6f7;
+    border: solid rgba(204, 200, 200, 0.101) 1px;
+    padding: 12px 0px 12px 16px;
+    border-bottom-color: rgba(0, 0, 0, .101);
+    font-size: 14px;
+}
+
+#user_input {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+#pass_input {
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+
+#sub_btn {
+    border-radius: 3px;
+    background-color: #1877f2;
+    font-weight: bold   ;
+    color: #fff;
+    border: solid rgba(0, 0, 0, .101) 1px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    margin-top: 10px;
+    width: 415px;
+}
+
+#or {
+    padding-top: 8px;
+    font-size: 0.9rem;
+}
+
+#or::before,
+#or::after {
+    display: inline-block;
+    content: "";
+    border-top: .1rem solid #ebedf0;
+    width: 11rem;
+    margin: 0 1rem;
+    transform: translateY(-0.5rem);
+}
+
+#create_new_acc, #create_new_acc:active, #create_new_acc:hover, #create_new_acc:visited{
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+    background-color: #00a400;
+    padding: 11px 15px;
+    border-radius: 5px;
+    margin-left: 124px;
+}

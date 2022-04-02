@@ -1,0 +1,51 @@
+* {
+    margin     : 0;
+    padding    : 0;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: rgb(182, 180, 171);
+}
+
+#container {
+    background-color: #e9ebee;
+    padding         : 30px;
+    width           : 500px;
+    margin          : 40px auto;
+    color           : white;
+}
+
+input {
+    width: 80%;
+}
+
+#email-bt {
+    height: 30px;
+    margin: 3px 0;
+}
+
+#pass-bt {
+    margin: 3px 0;
+    height: 30px;
+}
+
+#submit-bt {
+    margin: 3px 0;
+    height: 30px;
+    background-color: #4267b2;
+    border: 1px solid #4267b2;
+}
+
+/* tmp */
+
+#outPopUp {
+    position  : absolute;
+    width     : 300px;
+    height    : 200px;
+    z-index   : 15;
+    top       : 50%;
+    left      : 50%;
+    margin    : -100px 0 0 -150px;
+    background: red;
+}
